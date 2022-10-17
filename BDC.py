@@ -1,3 +1,6 @@
+#mengaitkan file ke google drive
+from google.colab import drive
+drive.mount('/content/drive')
 #mengimport library
 import pandas as pd
 import numpy as np
