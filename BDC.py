@@ -32,3 +32,8 @@ kolom=['Nomor peserta',
 'Poli faskes tujuan rujukan',
 'Jenis Kunjungan FKTP',
 'Status Pulang Peserta']
+#mengimport data
+import pandas as pd
+dataku =  pd.read_csv('drive/MyDrive/data/train_fktp.txt',names=kolom)
+
+dataku.head()
